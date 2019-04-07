@@ -1097,5 +1097,49 @@
       [ [ "rag", 18 ] ],
       [ [ "plastic_chunk", 4 ] ]
     ]
+  },
+  {
+    "result": "armor_tire",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": 50000,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_melee", 1 ] ],
+    "using": [ [ "cordage", 4 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "wheel", 2 ] ] ]
+  },
+  {
+    "result": "armor_xltire",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": 75000,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_melee", 1 ] ],
+    "using": [ [ "cordage", 8 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "wheel_wide", 2 ] ] ]
+  },
+  {
+    "result": "chestguard_hard",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": 15000,
+    "book_learn": [ [ "textbook_tailor", 3 ], [ "manual_tailor", 4 ], [ "tailor_portfolio", 3 ] ],
+    "using": [ [ "sewing_standard", 25 ] ],
+    "tools": [ [ [ "soldering_iron", 15 ], [ "welder", 15 ], [ "hotplate", 15 ], [ "toolset", 15 ] ] ],
+    "components": [
+      [ [ "neoprene", 6 ] ],
+      [ [ "plastic_chunk", 8 ] ]
+    ]
   }
 ]
