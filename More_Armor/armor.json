@@ -1135,7 +1135,7 @@
     "encumbrance": 15,
     "warmth": 15,
     "material_thickness": 1,
-    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HELMET_COMPAT" ]
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HELMET_COMPAT", "ELECTRIC_IMMUNE" ]
   },
   {
     "id": "backpack_floating",
